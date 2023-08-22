@@ -10,13 +10,13 @@
 
 	<body>
 		<form> 
-			<select id="colorSelect"> 
+			<select id="colorSelect" onchange="selectedVal()"> 
 				<option>Red</option> 
 				<option>Green</option> 
 				<option>White</option> 
 				<option>Black</option> 
 			</select> 
-			<input type="button" value="Select and Remove"> 
+			<input type="button" value="Select and Remove" id="btn" onclick="remove()"> 
 		</form>
 
 		<script type="text/javascript" src="./script.js">
@@ -25,3 +25,4 @@
 	</body>
 
 </html>
+
